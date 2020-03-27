@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 # @Time: 2020/3/23 11:46
 # @Author: wenqin_zhu
-# @File: selenium4_operation_window_switch1_convention.py
+# @File: selenium4_operation_window_switch_EC.py
 # @Software: PyCharm
 
 from selenium import webdriver
@@ -36,7 +36,7 @@ driver.find_element(*button_loc).click()
 wins = driver.window_handles
 
 # 通过元素操作产生新的窗口
-ulr_click = (By.XPATH, '//div[@class="result c-container " and @id="1"]//a')
+ulr_click = (By.XPATH, '//div[contains(@class, "c-container") and @id="2"]/h3/a')
 wait.until(EC.visibility_of_element_located(ulr_click))
 driver.find_element(*ulr_click).click()
 

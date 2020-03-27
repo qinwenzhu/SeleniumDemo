@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 # @Time: 2020/3/23 11:12
 # @Author: wenqin_zhu
-# @File: selenium3_ele_operation_wait1.py
+# @File: selenium3_ele_operation_wait2_implicitly.py
 # @Software: PyCharm
 
 
