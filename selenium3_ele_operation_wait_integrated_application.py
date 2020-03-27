@@ -43,6 +43,7 @@ button_loc = (By.XPATH, '//input[@class="bg s_btn"]')
 wait.until(EC.visibility_of_element_located(button_loc))
 driver.find_element(*button_loc).click()
 
+# 强制等待
 time.sleep(2)
 
 
