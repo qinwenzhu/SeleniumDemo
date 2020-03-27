@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test alert</title>
+</head>
+<body>
+<p><input id="btn1" type="button" value="警告消息框" /></p>
+<p><input id="btn2" type="button" value="确认消息框" /></p>
+<p><input id="btn3" type="button" value="提示消息框" /></p>
+<p>alert三种弹框</p>
+<p>alert()--警告消息框</p>
+<p>confirm()--确认消息框</p>
+<p>prompt()--提示消息框</p>
+<script>
+    var input_btn1 = document.getElementById("btn1")
+    var input_btn2 = document.getElementById("btn2")
+    var input_btn3 = document.getElementById("btn3")
+    input_btn1.onclick = function(){
+        alert("警告消息框")
+    }
+    input_btn2.onclick = function(){
+        confirm("确认消息框")
+    }
+    input_btn3.onclick = function(){
+        prompt("提示消息框")
+    }
+</script>
+
+</body>
+</html>
