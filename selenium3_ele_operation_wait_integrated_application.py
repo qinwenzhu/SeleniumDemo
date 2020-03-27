@@ -27,6 +27,7 @@ import time
 
 driver = webdriver.Chrome()
 
+# 智能等待 - 隐性等待
 driver.implicitly_wait(20)
 
 driver.maximize_window()
