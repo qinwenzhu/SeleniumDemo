@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 # @Time: 2020/3/27 19:30
 # @Author: wenqin_zhu
-# @File: selenium5_mouse_action.py
+# @File: selenium5_mouse_operation.py
 # @Software: PyCharm
 
 

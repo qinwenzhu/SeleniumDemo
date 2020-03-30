@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 # @Time: 2020/3/23 11:46
 # @Author: wenqin_zhu
-# @File: selenium4_operation_window_switch_EC.py
+# @File: selenium4_window_EC.py
 # @Software: PyCharm
 
 from selenium import webdriver
